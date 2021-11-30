@@ -1,0 +1,17 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.visual{
+	width:200px;
+	heigth:200px;
+}
+
+.opcion{
+	width:50px;
+	heigth:50px;
+}
+

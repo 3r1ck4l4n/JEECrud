@@ -1,0 +1,47 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding:0;
+	
+}
+.fontsytle{
+	font-family: 'Kaushan Script', cursive;
+}
+.bodystyle{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-size: 70px;
+}
+body{
+	background-image: url("/Practica2/img/fondo.jpg") ;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #66999;
+}
+.card-img-top{
+	width: 225px;
+	height: 225px;
+	margin: auto;
+	
+}
+.card{
+	margin: auto;
+}
+
+#nav-img{
+	width: 75px;
+	height: 75px;
+	
+}
+
+.mx-auto {
+  display: flex;  /*display: flex; el cual vuelve al contenedor un elemento flex*/
+  
+  align-items: center;  /*justify-content: center; le decimos a los elementos del contenedor flex que se ubiquen al centro del eje principal eje horizontal*/
+  
+  justify-content: center; /*align-items: center; estamos diciendo que queremos que los elementos dentro del contenedor flex se ubiquen en el centro del eje secundario eje vertical*/
+  
+ }

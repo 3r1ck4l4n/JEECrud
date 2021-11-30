@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+body{
+	background-image: url("/Practica2/img/back2.jpg");
+}
+
+
+.form-group{  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+   }
+
+input:Focus {
+     Background-color: blue;
+}
+form{
+	padding: 10%, 10%, 10%, 10%;
+	border-radius:5%;
+	border: solid;
+	background-image: url("/Practica2/img/back1.jpeg");
+	
+}
+.fontsytle{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 70px;
+}
+.bodystyle{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
